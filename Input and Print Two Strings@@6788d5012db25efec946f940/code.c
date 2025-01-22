@@ -4,7 +4,7 @@ int main() {
     char str2[100];
     fgets(str, sizeof(str), stdin);
     fgets(str, sizeof(str2), stdin);
-    printf("You entered: %s",str)
+    printf("You entered: %s",str);
     printf(" and %s",str2);
 
     return 0;
