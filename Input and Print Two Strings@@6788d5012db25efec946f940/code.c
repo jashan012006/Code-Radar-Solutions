@@ -2,12 +2,11 @@
 int main() {
     char str[100];
     char str2[100];
-    fgets(str, sizeof(str), stdin);
-    fgets(str2, sizeof(str2), stdin);
-    printf("You entered: %s and ", str);
+    scanf("%s",&str);
+    scanf("%s",&str2);
    
     
-    printf("%s",str2);
+    printf("You entered: %s",str," and %s",str2);
 
     return 0;
 }
