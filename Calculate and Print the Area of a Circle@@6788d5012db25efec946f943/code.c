@@ -4,6 +4,6 @@ int main() {
     float radius;
     float area=pie*radius*radius;
     scanf("%f",&radius);
-    printf("Area: %f",area);
+    printf("Area: %.2f",area);
     return 0;
 }
