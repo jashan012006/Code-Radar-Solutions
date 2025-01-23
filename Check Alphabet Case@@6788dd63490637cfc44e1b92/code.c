@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int num;
-    scanf("%d",a);
+    scanf("%d",&num);
     if (65<=num<=90){
         printf("Uppercase");
     }else if(97<=num<=122){
