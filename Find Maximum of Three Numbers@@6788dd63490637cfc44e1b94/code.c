@@ -1,9 +1,13 @@
 #include <stdio.h>
-#define max_of_three a,b,c,
 int main() {
-    int a,b,c;
+    int a,b,c,max;
+    max=a
     scanf("%d%d%d",&a,&b,&c);
-    printf(max_of_three(a,b,c));
+    if(b<max){
+        printf("%d",max);
+    }else if(c<max){
+        printf("%d",max);
+    }
 
     return 0;
 }
