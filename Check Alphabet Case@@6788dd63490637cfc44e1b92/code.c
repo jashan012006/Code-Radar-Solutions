@@ -7,6 +7,6 @@ int main() {
     }else if(character>=97){
         printf("Lowercase");
     }
-    }
     return 0;
-}
+    }
+    
