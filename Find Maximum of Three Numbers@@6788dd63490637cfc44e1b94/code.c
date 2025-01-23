@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int a,b,c,max;
-    max=a
+    max=a;
     scanf("%d%d%d",&a,&b,&c);
     if(b<max){
         printf("%d",max);
