@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
-    int num;
-    scanf("%d",&num);
-    if (65<=num<=90){
+    char ch;
+    scanf("%c",&ch);
+    if ('A'<=num<='Z'){
         printf("Uppercase");
-    }else if(90<=num<=122){
+    }else if('a'<=num<='z'){
         printf("Lowercase");
     }else{
         printf("Not an alphabet");
