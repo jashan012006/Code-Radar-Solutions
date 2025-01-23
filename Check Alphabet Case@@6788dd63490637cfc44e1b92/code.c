@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&num);
     if (65<=num<=90){
         printf("Uppercase");
-    }else if(97<=num<=122){
+    }else if(90<=num<=122){
         printf("Lowercase");
     }else{
         printf("Not an alphabet");
