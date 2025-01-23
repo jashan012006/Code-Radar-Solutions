@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int num;
+    int num=65;
     char character;
     character=(char)num;
     if (65<=character<=96){
