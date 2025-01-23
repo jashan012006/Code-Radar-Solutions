@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main() {
-    int num=65;
+    int num;
     char character;
     character=(char)num;
-    if (65<=character<=96){
+    if (65<=character<=90){
         printf("Uppercase");
-    }else if(character>=97){
+    }else if(97<=character<=122){
         printf("Lowercase");
+    }else{
+        printf
     }
     return 0;
     }
