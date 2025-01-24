@@ -3,9 +3,9 @@ int main() {
     int age;
     scanf("%d",&age);
     if(age>=60){
-        printf("Elidgible");
+        printf("Eligible");
     }else{
-        printf("Not Elidgible");
+        printf("Not Eligible");
     }
     return 0;
 }
