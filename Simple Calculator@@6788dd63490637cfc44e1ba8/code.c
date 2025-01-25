@@ -1,17 +1,18 @@
 #include <stdio.h>
+#include <math.h>
 int main() {
-    int a;
-    int b;
+    float a;
+    float b;
     char character;
     scanf("%d %d %c",&a,&b,&character);
     if(character=='+'){
-        printf("%d",a+b);
+        printf("%.2f",a+b);
     }else if(character=='-'){
-        printf("%d",a-b);
+        printf("%.2f",a-b);
     }else if(character=='*'){
-        printf("%d",a*b);
+        printf("%.2f",a*b);
     }else if(character=='/'){
-        printf("%d",a/b);
+        printf("%.2f",a/b);
     }else{
         printf("nothing");
     }
