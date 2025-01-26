@@ -5,7 +5,7 @@ int main() {
     scanf("%c",&character);
     if(character=='a','e','i','o','u'){
         printf("Vowel");
-    }else if(a<=character<=z -('a','e','i','o','u')){
+    }else if(a<=character<=z){
         printf("Consonant");
     }else if(0<a<10){
         printf("Digit");
