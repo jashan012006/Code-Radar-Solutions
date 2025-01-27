@@ -1,22 +1,21 @@
 #include <stdio.h>
 #include <math.h>
 int main() {
-    double a;
-    double b;
+    double a,b;
     char character;
     scanf("%d %d %c",&a,&b,&character);
     switch(character){
     case '+':
-        printf("%d",a+b);
+        printf("%d+%d",a+b);
         break;
     case '-':
-        printf("%d",a-b);
+        printf("%d-%d",a-b);
         break;
     case '*':
-        printf("%d",a*b);
+        printf("%d*%d",a*b);
         break;
     case '/':
-        printf("%ld",a/b);
+        printf("%d/%d",a/b);
         break;
     default:
         printf("Error");
