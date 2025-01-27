@@ -18,5 +18,6 @@ int main() {
         }else{
             printf("error");
         }
+        return 0;
     }
-    return 0;
+    
