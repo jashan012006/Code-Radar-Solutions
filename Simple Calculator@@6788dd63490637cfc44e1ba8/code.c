@@ -3,18 +3,19 @@
 int main() {
     double a,b;
     char character;
-    int result=a+b;
-    int result1=a-b;
+    scanf("%d %d %c",&a,&b,&character);
+    int result1=a+b;
+    int result2=a-b;
     int result3=a*b;
     int result4=a/b;
-    scanf("%d %d %c",&a,&b,&character);
+
     switch(a,b,character){
     
     case '+':
-        printf("%d",result);
+        printf("%d",result1);
         break;
     case '-':
-        printf("%d",result1);
+        printf("%d",result2);
         break;
     case '*':
         printf("%d",result3);
