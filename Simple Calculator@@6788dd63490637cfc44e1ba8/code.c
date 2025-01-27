@@ -12,7 +12,7 @@ int main() {
     switch(a,b,character){
     
     case '+':
-        printf("%d",result1);
+        printf("%d",a+b);
         break;
     case '-':
         printf("%d",result2);
