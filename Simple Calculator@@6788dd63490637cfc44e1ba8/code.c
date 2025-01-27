@@ -17,7 +17,7 @@ int main() {
     printf("%.0lf",a/b);
     break;
     default:
-    printf("Invalid operator");
+    printf("Error");
     }
        
     return 0;
