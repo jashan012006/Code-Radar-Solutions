@@ -3,7 +3,7 @@ int main(){
     int a;
     char character;
     scanf("%c",&character);
-    if(character=='a','e','i','o','u'){
+    if(character=='a'){
         printf("Vowel");
     }else if(a<=character<=z){
         printf("Consonant");
