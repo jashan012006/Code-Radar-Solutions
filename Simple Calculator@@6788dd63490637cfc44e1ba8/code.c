@@ -2,15 +2,15 @@
 int main() {
     double a,b;
     char o;
-    scanf("%lf %lf %c",&a,&b,&o);
+    scanf("%ld %ld %c",&a,&b,&o);
         if(o=='+'){
-            printf("%lf",a+b);
+            printf("%ld",a+b);
         }else if(o=='-'){
-            printf("%lf",a-b);
+            printf("%ld",a-b);
         }else if(o=='*'){
-            printf("%lf",a*b);
+            printf("%ld",a*b);
         }else if(o=='/'){
-            printf("%lf",a/b);
+            printf("%ld",a/b);
         }else{
             printf("error");
         }
