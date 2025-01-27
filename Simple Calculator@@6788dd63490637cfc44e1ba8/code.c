@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 int main() {
-    int a;
-    int b;
+    float a;
+    float b;
     char character;
     scanf("%d %d %c",&a,&b,&character);
     switch(character){
