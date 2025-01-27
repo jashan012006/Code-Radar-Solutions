@@ -17,7 +17,7 @@ int main() {
     printf("%.0lf",a/b);
     break;
     default:
-    printf("Error");
+    printf("error");
     }
        
     return 0;
