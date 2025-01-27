@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    double a,b;
     char character;
-    scanf("%c %d %d",&a,&b,&character);
+    int a,b;
+    scanf("%c %d %d",&character,&a,&b);
     int result1=a+b;
     int result2=a-b;
     int result3=a*b;
