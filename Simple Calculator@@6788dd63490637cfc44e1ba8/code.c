@@ -5,16 +5,17 @@ int main() {
     int b;
     char character;
     scanf("%d %d %c",&a,&b,&character);
-    if(character=='+'){
+    switch(a,b,character)
+    case 1:
         printf("%d",a+b);
-    }else if(character=='-'){
+    case 2:
         printf("%d",a-b);
-    }else if(character=='*'){
+    case 3:
         printf("%d",a*b);
-    }else if(character=='/'){
+    case 4:
         printf("%d",a/b);
-    }else{
-        printf("nothing");
+    default:
+        printf("Error");
     }
     return 0;
 }
