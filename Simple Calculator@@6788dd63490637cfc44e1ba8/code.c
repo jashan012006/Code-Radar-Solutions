@@ -16,8 +16,6 @@ int main() {
     case '/':
     printf("%.0lf",a/b);
     break;
-    default:
-    printf("error");
     }
        
     return 0;
