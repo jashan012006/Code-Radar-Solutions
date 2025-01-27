@@ -10,19 +10,19 @@ int main() {
 
     switch(a,b,character){
     
-    case '+':
+        case '+':
         printf("%d",result1);
         break;
-    case '-':
+        case '-':
         printf("%d",result2);
         break;
-    case '*':
+        case '*':
         printf("%d",result3);
         break;
-    case '/':
+        case '/':
         printf("%d",result4);
         break;
-    default:
+        default:
         printf("Error");
     }
     return 0;
