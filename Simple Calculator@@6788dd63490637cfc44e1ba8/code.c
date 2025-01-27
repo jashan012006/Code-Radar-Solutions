@@ -16,6 +16,8 @@ int main() {
     case '/':
     printf("%.0lf",a/b);
     break;
+    default:
+    printf("Invalid operator");
     }
        
     return 0;
