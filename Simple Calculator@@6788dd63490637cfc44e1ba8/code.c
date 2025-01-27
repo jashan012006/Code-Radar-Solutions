@@ -2,7 +2,7 @@
 int main() {
     double a,b;
     char character;
-    scanf("%c %d %d",&character,&a,&b);
+    scanf("%c %d %d",&a,&b,&character);
     int result1=a+b;
     int result2=a-b;
     int result3=a*b;
