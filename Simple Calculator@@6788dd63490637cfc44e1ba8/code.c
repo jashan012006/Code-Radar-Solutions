@@ -8,13 +8,13 @@ int main() {
     int result3=a*b;
     int result4=a/b;
         if(character=='+'){
-            printf("%d",a+b);
+            printf("%d",result1);
         }else if(character=='-'){
-            printf("%d",a-b);
+            printf("%d",result2);
         }else if(character=='*'){
-            printf("%d",a*b);
+            printf("%d",result3);
         }else if(character=='/'){
-            printf("%d",a/b);
+            printf("%d",result4);
         }else{
             printf("error");
         }
