@@ -3,7 +3,10 @@
 int main() {
     double a,b;
     char character;
-    int result=a+b,a-b,a*b,a/b;
+    int result=a+b;
+    int result1=a-b;
+    int result3=a*b;
+    int result4=a/b;
     scanf("%d %d %c",&a,&b,&character);
     switch(a,b,character){
     
@@ -11,13 +14,13 @@ int main() {
         printf("%d",result);
         break;
     case '-':
-        printf("%d",result);
+        printf("%d",result1);
         break;
     case '*':
-        printf("%d",result);
+        printf("%d",result3);
         break;
     case '/':
-        printf("%d",result);
+        printf("%d",result4);
         break;
     default:
         printf("Error");
