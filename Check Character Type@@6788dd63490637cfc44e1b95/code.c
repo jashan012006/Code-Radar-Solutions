@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 int main(){
-    int a;
+    int A;
     char c;
     scanf("%c",&c);
     if(isalpha(c)){
@@ -9,7 +9,7 @@ int main(){
         printf("Vowel");
     }else{
         printf("Consonant");
-    }else if(isdigit(c)){
+    }else if(isdigit(A)){
         printf("Digit");
     }else{
         printf("Special Character");
