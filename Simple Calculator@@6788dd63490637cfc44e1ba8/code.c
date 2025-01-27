@@ -2,7 +2,7 @@
 int main() {
     double a,b;
     char o;
-    scanf("%ld %ld %c",&a,&b,&o);
+    scanf("%lf %lf %c",&a,&b,&o);
         if(o=='+'){
             printf("%lf",a+b);
         }else if(o=='-'){
