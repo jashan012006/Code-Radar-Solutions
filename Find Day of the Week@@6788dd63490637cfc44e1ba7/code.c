@@ -22,8 +22,6 @@ int main() {
     }
     else if (num==7){
         printf("Sunday");
-    }else{
-        printf("OUT OF RANGE");
     }
     return 0;
 }
