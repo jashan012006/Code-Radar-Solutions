@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int a,b;
+    double a,b;
     char o;
     scanf("%c %d %d",&a,&b,&o);
         if(character=='+'){
