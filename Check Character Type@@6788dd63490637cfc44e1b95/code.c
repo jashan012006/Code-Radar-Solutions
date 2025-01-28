@@ -8,12 +8,11 @@ int main(){
         printf("Vowel");
        }else{
           printf("Consonant");
-          
-    }else if(isdigit(c)){
+}else if(isdigit(c)){
         printf("Digit");
-    }else{
-        printf("Special Character");
-    }
+}else{
+    printf("Special Character");
+}
     }
     return 0;
 }
