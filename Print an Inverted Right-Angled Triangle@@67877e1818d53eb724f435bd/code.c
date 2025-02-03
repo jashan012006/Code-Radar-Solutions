@@ -4,7 +4,8 @@ int main() {
     char c;
     scanf("%d",&n);
     scanf("%c",&c);
-    for(int i=1,i>n,i--);
-    printf("%c",'*');
+    for(int i=1,i>n,i--){
+        PRINTF("%c",c);
+    }
     return 0;
 }
