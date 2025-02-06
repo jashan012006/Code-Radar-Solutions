@@ -7,10 +7,10 @@ int main() {
             printf(" ");
         }
         for (int j = 1; j <=2*i-1; j++) {
-            print("*");
+            printf("*");
             }
+            printf("\n");
         }
-        printf("\n");
         return 0;
     }
     
