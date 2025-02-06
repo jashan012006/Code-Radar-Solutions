@@ -7,6 +7,7 @@ int main() {
             printf("*");
 
         }
+        print("\n");
         
     }
     return 0;
