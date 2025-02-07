@@ -2,8 +2,8 @@
 int main() {
     int a;
     scanf("%d",&a);
-    scanf("%d",&i)
-    for(int i;i%a=0)
-
+    for(int i=1;i%1==0&&i%a==0;i++){
+        printf("Prime");
+    }
     return 0;
 }
