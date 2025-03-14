@@ -10,22 +10,17 @@ const char* is_sorted(int arr[], int n) {
         if (arr[i] > arr[i + 1]) {
             ascending = false;
         }
-        if (arr[i] < arr[i + 1]) {
-            descending = false;
-        }
     }
 
     if (ascending) {
-        return "Array is sorted in ascending order.";
-    } else if (descending) {
-        return "Array is sorted in descending order.";
-    } else {
-        return "Array is unsorted.";
+        return "Sorted";
+    } else{
+        return "Not Sorted";
     }
 }
 
 int main() {
-    int arr[] = {1, 2, 3, 4, 5}; // Example array
+    int arr[] = {1, 2, 3, 4, 5}; 
     int n = sizeof(arr) / sizeof(arr[0]);
 
     printf("%s\n", is_sorted(arr, n));
