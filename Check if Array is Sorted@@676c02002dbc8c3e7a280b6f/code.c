@@ -1,29 +1,37 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-// Function to check if the array is sorted
-const char* is_sorted(int arr[], int n) {
-    bool ascending = true;
-    bool descending = true;
-
+// Function to check if the array is sorted in ascending order
+bool is_sorted(int arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
         if (arr[i] > arr[i + 1]) {
-            ascending = false;
+            return false; // Not sorted
         }
     }
-
-    if (ascending) {
-        return "Sorted";
-    } else{
-        return "Not Sorted";
-    }
+    return true; // Sorted
 }
 
 int main() {
-    int arr[] = {1, 2, 3, 4, 5}; 
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int n;
 
-    printf("%s\n", is_sorted(arr, n));
+    // User inputs the size of the array
+    printf("Enter the size of the array: ");
+    scanf("%d", &n);
+
+    int arr[n];
+
+    // User inputs the elements of the array
+    printf("Enter the elements of the array:\n");
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    // Check if the array is sorted and print the result
+    if (is_sorted(arr, n)) {
+        printf("Array is sorted in ascending order.\n");
+    } else {
+        printf("Array is not sorted in ascending order.\n");
+    }
 
     return 0;
 }
