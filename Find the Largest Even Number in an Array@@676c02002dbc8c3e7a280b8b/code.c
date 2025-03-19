@@ -8,7 +8,6 @@ int main(){
     }for(int i=0;i<n;i++){
         int max=100;
         if (arr[i]<100){
-            printf("%d",arr[i]);
         }
         
     }printf("%d",arr[i]);
