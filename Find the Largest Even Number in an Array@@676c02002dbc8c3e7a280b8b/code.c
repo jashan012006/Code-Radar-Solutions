@@ -6,10 +6,11 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }for(int i=0;i<n;i++){
-        int max=100;
-        if (arr[i]<100){
+        int max=arr[0];
+        if (arr[i]>max){
+            max=arr[i];
         }
         
-    }printf("%d",arr[i]);
+    }printf("%d",max);
     return 0;
 }
