@@ -8,9 +8,9 @@ int main(){
     }int max=arr[0];
     for(int i=0;i<n;i++){
         
-        if (arr[i]>max)&&(arr[i]%2==0){
+        if (arr[i]>max && arr[i]%2==0){
             max=arr[i];
-        }else{
+        }else if(arr[i]%2!=0){
             printf("-1");
         }
         
