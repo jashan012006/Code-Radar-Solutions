@@ -10,8 +10,8 @@ int main(){
         if (count==k){
             
         }
-        printf("%d",k);
-    }
+        
+    }printf("%d",k);
 
     return 0;
 }
