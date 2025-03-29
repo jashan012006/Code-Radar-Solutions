@@ -7,10 +7,10 @@ int main(){
         scanf("%d",&arr[i]);
         
     }
-    if(n%2!=0){
-        median=(n+1)/2;
-        printf("%d",median);
-    }else{
+    if(n%2==0){
         printf("%d",((n/2)+((n)/2)+1)/2);
+    }else{
+        median=(n+1/2);
+        printf("%d",median);
     }
 }
