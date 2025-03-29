@@ -5,7 +5,7 @@ int main(){
     int arr[n];
     int min={1000000};
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[i])
+        scanf("%d",&arr[i]);
         if(arr[i]<min){
             printf("%d",min);
         }
