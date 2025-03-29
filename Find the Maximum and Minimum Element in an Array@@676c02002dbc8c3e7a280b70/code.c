@@ -13,6 +13,7 @@ int main(){
         }
         }printf("%d",min);
         printf("%d",max);
+        return 0;
         }
 
           
