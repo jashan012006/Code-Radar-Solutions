@@ -8,7 +8,7 @@ int main(){
         
     }
     if(n%2==0){
-        printf("%d",(arr[(n/2)]+arr[((n)/2)]+1)/2);
+        printf("%.0f",(arr[(n/2)]+arr[((n)/2)]+1)/2);
     }else{
         median=(n+1)/2;
         printf("%d",median);
