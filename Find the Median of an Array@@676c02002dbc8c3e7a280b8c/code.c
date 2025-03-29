@@ -11,6 +11,6 @@ int main(){
         median=(n+1)/2;
         printf("%d",median);
     }else{
-        printf("%d",((n/2)+(n+1)/2)*2);
+        printf("%d",((n/2)+((n)/2)+1)*2);
     }
 }
