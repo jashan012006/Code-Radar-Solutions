@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,k,count=0;
+    int n,k,count=0,count2=0;
     scanf("%d",&n);
     scanf("%d",&k);
     int arr[n];
@@ -8,10 +8,10 @@ int main(){
         scanf("%d",&arr[i]);
         count+=arr[i];
         if (count==k){
-            
+            count+=count2;
         }
         
-    }printf("%d",k);
+    }printf("%d",count2);
 
     return 0;
 }
