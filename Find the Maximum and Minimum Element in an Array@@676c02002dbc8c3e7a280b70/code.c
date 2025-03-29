@@ -12,7 +12,7 @@ int main(){
         }else if(arr[i]>max){
             max=arr[i];
         }
-        }printf("%d",min);
+        }printf("%d ",min);
         printf("%d",max);
         return 0;
         }
