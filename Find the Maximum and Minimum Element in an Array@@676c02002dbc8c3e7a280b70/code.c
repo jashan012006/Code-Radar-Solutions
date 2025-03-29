@@ -12,6 +12,7 @@ int main(){
 
         }
         }printf("%d",min);
-        }printf("%d",max);
+        printf("%d",max);
+        }
 
     }            
