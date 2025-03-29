@@ -10,7 +10,7 @@ int main(){
         if(arr[i]>max){
             max=arr[i];
     }else{
-        printf("-1")
+        printf("-1");
     }
     }
     printf("%d",max);
