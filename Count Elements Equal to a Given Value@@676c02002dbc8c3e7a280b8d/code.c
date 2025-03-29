@@ -8,8 +8,9 @@ int main(){
         scanf("%d",&arr[i]);
         count+=arr[i];
         if (count==k){
-            printf("%d",k);
+            
         }
+        printf("%d",k);
     }
 
     return 0;
