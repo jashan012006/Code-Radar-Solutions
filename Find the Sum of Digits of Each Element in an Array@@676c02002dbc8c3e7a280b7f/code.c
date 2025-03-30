@@ -8,8 +8,7 @@ int main() {
     
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]); 
-        temp = abs(arr[i]); 
-        modulus = 0; 
+        temp = abs(arr[i]);  
         
         while (temp > 0) {
             remainder = temp % 10; 
