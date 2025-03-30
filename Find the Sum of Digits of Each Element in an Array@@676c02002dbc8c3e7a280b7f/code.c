@@ -1,22 +1,23 @@
 #include<stdio.h>
+#include<stdlib.h>
 
 int main() {
     int n, modulus = 0, remainder, temp;
-    scanf("%d", &n); // Input the number of elements
+    scanf("%d", &n); 
     int arr[n];
     
     for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]); // Input the array elements
-        temp = arr[i]; // Initialize temp with the current array value
-        modulus = 0; // Reset modulus for each number
+        scanf("%d", &arr[i]); 
+        temp = abs(arr[i]); 
+        modulus = 0; 
         
         while (temp > 0) {
-            remainder = temp % 10; // Get the last digit
-            modulus += remainder; // Add it to the sum of digits
-            temp /= 10; // Remove the last digit
+            remainder = temp % 10; 
+            modulus += remainder; 
+            temp /= 10; 
         }
         
-        printf("%d ", modulus); // Print the sum of digits for the current number
+        printf("%d ", modulus); 
     }
     
     return 0;
