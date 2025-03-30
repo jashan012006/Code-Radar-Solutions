@@ -11,9 +11,12 @@ int main(){
         if (arr[i]>max && arr[i]%2==0){
             max=arr[i];
         }
+        }if(max==-100){
+            printf("-1");
+        }else{
+            printf("%d",max);
         }
         
    
-    printf("%d",max);
     return 0;
 }
