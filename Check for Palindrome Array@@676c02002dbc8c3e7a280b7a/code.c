@@ -5,13 +5,16 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        for(int j=n-1;j>=0;j--){
-            scanf("%d",&arr[j]);
-            if(arr[i]==arr[j]){
-                printf("YES");
-                }else{
-                    printf("NO");
+    }
+    int ispalindrome=1;
+    for(int i=0;i<n/2;i++){
+        if(arr[i]!=arr[n-i-1]){
+            ispalindrome=0;
         }
+    }if(ispalindrome){
+        printf("YES");
+    }else{
+        printf("NO");
     }
-    }
+    
 }
