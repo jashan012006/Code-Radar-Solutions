@@ -6,7 +6,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
         remainder=arr[i]%10;
-        remainder+=modulus;
+        modulus+=remainder;
+        printf("%d ",modulus);
     }
-    printf("%d ",modulus);
+    
 }
