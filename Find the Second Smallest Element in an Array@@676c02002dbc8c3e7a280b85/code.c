@@ -11,8 +11,8 @@ int main(){
             min=arr[i];
             arr[i]--;
             continue;
-            }else if (arr[n-i-1]<min){
-                min=arr[n-i-1];
+            }else if (arr[i]<min){
+                min=arr[i];
             }
 
         
