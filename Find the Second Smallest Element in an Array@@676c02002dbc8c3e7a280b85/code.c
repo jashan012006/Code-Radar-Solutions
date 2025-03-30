@@ -10,11 +10,11 @@ int main(){
         if (arr[i]<min){
             min=arr[i];
             continue;
-            else if (arr[i-1]<min){
+            }else if (arr[i-1]<min){
                 min=arr[i-1];
             }
 
-        }
+        
     }
     printf("%d",min);
 }
