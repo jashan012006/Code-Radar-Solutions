@@ -8,7 +8,7 @@ int fibonacci(int n){
         return fibonacci(n-1) + fibonacci(n-2);
     }
 }
-int main(){
+void main(){
     int terms;
     scanf("%d",&terms);
     if(terms<0){
@@ -19,5 +19,5 @@ int main(){
             printf("%d ", fibonacci(i));
         }printf("\n");
     }
-    return 0;
+    
 }
