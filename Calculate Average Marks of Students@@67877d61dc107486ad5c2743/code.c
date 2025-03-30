@@ -7,7 +7,8 @@ int main(){
     scanf("%d",&n);
     for(int i=1;i<=n;i++){
         scanf("%d",&roll_no);
-        fgets(name,sizeof(name),stdin);
+        getchar();
+        fgets(name, sizeof(name), stdin);
         scanf("%f",&marks);
         marks2+=marks;
         
