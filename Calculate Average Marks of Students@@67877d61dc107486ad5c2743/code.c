@@ -11,9 +11,6 @@ int main(){
         scanf("%f",&marks);
         marks2+=marks;
         average=marks2/n;
-    }printf("%d ",roll_no);
-    printf("%s ",name);
-    printf("%.1f\n",marks);
-    printf("%.2f",marks2);
+    }printf("%.2f",average);
 
 }
