@@ -21,7 +21,7 @@ int main() {
         scanf("%f", &marks);
 
         // Add marks to total
-        marks2 += marks;
+        total_marks += marks;
     }
 
     // Calculate the average
