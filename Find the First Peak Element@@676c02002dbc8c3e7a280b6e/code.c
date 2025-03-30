@@ -9,6 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
         if(arr[i]>max){
             max=arr[i];
+            break;
     }else{
         printf("-1");
     }
