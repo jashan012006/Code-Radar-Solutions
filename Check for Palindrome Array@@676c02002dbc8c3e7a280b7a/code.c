@@ -5,9 +5,9 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-    }for(int j=n-1;j>=0;j--){
+    }for(int i=n-1;i>=0;j--){
         scanf("%d",&arr[j]);
-        if(arr[i]==arr[j]){
+        if(arr[i]==arr[I]){
             printf("YES");
         }else{
             printf("NO");
