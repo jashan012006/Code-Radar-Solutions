@@ -9,7 +9,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]); 
         temp = abs(arr[i]);  
-        
+        modulus =0
         while (temp > 0) {
             remainder = temp % 10; 
             modulus += remainder; 
