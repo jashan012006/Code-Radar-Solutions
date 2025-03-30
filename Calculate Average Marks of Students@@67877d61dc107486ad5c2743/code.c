@@ -28,7 +28,7 @@ int main() {
     average = total_marks / n;
 
     // Print the average marks
-    printf("%.2f", average);
+    printf("%.2f\n", average);
 
     return 0;
 }
