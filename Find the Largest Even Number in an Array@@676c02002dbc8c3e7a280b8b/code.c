@@ -5,10 +5,10 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-    }int max=-1;
+    }int max=10000000;
     for(int i=0;i<n;i++){
         
-        if (arr[i]>max && arr[i]%2==0){
+        if (arr[i]<max && arr[i]%2==0){
             max=arr[i];
         }
         }
