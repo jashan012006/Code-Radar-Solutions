@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-    int n,modulus=0,sum=0;
+    int n,modulus=0,remainder;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        arr[i]%10+=modulus;
-        modulus+=sum;
+        remainder=arr[i]%10;
+        remainder+=modulus;
         printf("%d",sum);
     }
 }
