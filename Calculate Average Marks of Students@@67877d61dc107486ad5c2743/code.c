@@ -4,7 +4,7 @@ int main() {
     int n; 
     int roll_no; 
     char name[100]; 
-    float marks, average, marks2 = 0;
+    float marks, average, total_marks = 0;
 
     // Input the number of students
     scanf("%d", &n);
@@ -25,7 +25,7 @@ int main() {
     }
 
     // Calculate the average
-    average = marks2 / n;
+    average = total_marks / n;
 
     // Print the average marks
     printf("%.2f", average);
