@@ -9,6 +9,7 @@ int main(){
     for(int i=0;i<n;i++){
         if (arr[i]<min){
             min=arr[i];
+            arr[i]--;
             continue;
             }else if (arr[n-i-1]<min){
                 min=arr[n-i-1];
