@@ -10,7 +10,8 @@ int main(){
         fgets(name,sizeof(name),stdin);
         scanf("%f",&marks);
         marks2+=marks;
-        average=marks2/n;
-    }printf("%.2f",average);
+        
+    }average=marks2/n;
+    printf("%.2f",average);
 
 }
