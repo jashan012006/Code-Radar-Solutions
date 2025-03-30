@@ -10,6 +10,7 @@ int main(){
         if(arr[i]==k){
             printf("%d",i);
             break;
+            return 0;
         }
     }
     printf("-1");
