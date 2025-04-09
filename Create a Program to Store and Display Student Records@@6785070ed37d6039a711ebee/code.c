@@ -1,10 +1,11 @@
+#include <stdio.h>
 struct class{
     int n;
     int roll_no;
     char name[100];
     float marks=0;
     float average=0;
-}
+};
 int main(){
     scanf("%d",&n);
     scanf("%d",&roll_no);
