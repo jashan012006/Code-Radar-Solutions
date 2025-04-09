@@ -1,12 +1,13 @@
 #include <stdio.h>
 struct class{
-    int n;
     int roll_no;
     char name[100];
-    float marks=0;
-    float average=0;
+    int marks;
+    
 };
 int main(){
+    int n;
+    float total_marks = 0, average;
     scanf("%d",&n);
     scanf("%d",&roll_no);
     fgets(name,sizeof(name),stdin);
