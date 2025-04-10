@@ -19,7 +19,7 @@ void reverseString(char str[]) {
 }
 
 int main() {
-    char str[] = "Hello, World!";
+    fgats(str,sizeof(str),stdin);
     printf("Original string: %s\n", str);
 
     reverseString(str);
